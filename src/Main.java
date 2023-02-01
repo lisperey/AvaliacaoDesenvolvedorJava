@@ -53,7 +53,7 @@ public class Main {
 
                 }
                 else{
-                    System.out.println("Opção invalida!");
+                    System.out.println("Opção inválida!");
                     menu();
 
                 }
