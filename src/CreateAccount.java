@@ -22,8 +22,8 @@ public class CreateAccount{
             String nome = Main.leitor.nextLine();
             System.out.println("Informe o endereço:");
             String endereco = Main.leitor.nextLine();
-            System.out.println("Informe a profisão:");
-            String profisao = Main.leitor.nextLine();
+            System.out.println("Informe a profissão:");
+            String profissao = Main.leitor.nextLine();
             System.out.println("Informe o limite:");
             float limite = Main.leitor.nextFloat();
             String tipo = "Corrente";
@@ -32,7 +32,7 @@ public class CreateAccount{
             int agencia = Main.leitor.nextInt();
             float saldo = 0f;
 
-            Account account = new Account(cpf, nome, endereco, profisao, tipo, numeroConta, agencia, saldo);
+            Account account = new Account(cpf, nome, endereco, profissao, tipo, numeroConta, agencia, saldo);
 
             account.setLimite(limite);
 
@@ -40,7 +40,7 @@ public class CreateAccount{
                     "\nNome:" + nome +
                     "\nCPF:" + cpf +
                     "\nEndereço: " + endereco +
-                    "\nProfisão: " + profisao +
+                    "\nProfissão: " + profissao +
                     "\nConfirma?" +
                     "\n1-Sim | 2-Não");
 
@@ -59,7 +59,7 @@ public class CreateAccount{
 
             }
             else{
-                System.out.println("Opção invalida!");
+                System.out.println("Opção inválida!");
                 Main.menu();
             }
 
@@ -84,21 +84,21 @@ public class CreateAccount{
             String nome = Main.leitor.nextLine();
             System.out.println("Informe o endereço:");
             String endereco = Main.leitor.nextLine();
-            System.out.println("Informe a profisão:");
-            String profisao = Main.leitor.nextLine();
+            System.out.println("Informe a profissão:");
+            String profissao = Main.leitor.nextLine();
             String tipo = "Poupança";
             int numeroConta = accounts.size()+1;
             System.out.println("Informe a agência:");
             int agencia = Main.leitor.nextInt();
             float saldo = 0f;
 
-            Account account = new Account(cpf, nome, endereco, profisao, tipo, numeroConta, agencia, saldo);
+            Account account = new Account(cpf, nome, endereco, profissao, tipo, numeroConta, agencia, saldo);
 
             System.out.println("Dados da conta" +
                     "\nNome:" + nome +
                     "\nCPF:" + cpf +
                     "\nEndereço: " + endereco +
-                    "\nProfisão: " + profisao +
+                    "\nProfissão: " + profissao +
                     "\nTipo: " + tipo +
                     "\nConfirma?" +
                     "\n1-Sim | 2-Não");
@@ -116,7 +116,7 @@ public class CreateAccount{
 
             }
             else{
-                System.out.println("Opção invalida!");
+                System.out.println("Opção inválida!");
                 Main.menu();
             }
 
