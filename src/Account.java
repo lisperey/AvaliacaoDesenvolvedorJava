@@ -4,7 +4,7 @@ public class Account {
     private int CPF;
     private String nome;
     private String endereco;
-    private String profisao;
+    private String profissao;
     private String tipo;
     private int numeroConta;
     private int agencia;
@@ -37,11 +37,11 @@ public class Account {
         this.limite = limite;
     }
 
-    public Account(int CPF, String nome, String endereco, String profisao, String tipo, int numeroConta, int agencia, float saldo) {
+    public Account(int CPF, String nome, String endereco, String profissao, String tipo, int numeroConta, int agencia, float saldo) {
         this.CPF = CPF;
         this.nome = nome;
         this.endereco = endereco;
-        this.profisao = profisao;
+        this.profissao = profissao;
         this.tipo = tipo;
         this.numeroConta = numeroConta;
         this.agencia = agencia;
@@ -72,12 +72,12 @@ public class Account {
         this.endereco = endereco;
     }
 
-    public String getProfisao() {
-        return profisao;
+    public String getProfissao() {
+        return profissao;
     }
 
-    public void setProfisao(String profisao) {
-        this.profisao = profisao;
+    public void setProfissao(String profissao) {
+        this.profissao = profissao;
     }
 
     public String getTipo() {
