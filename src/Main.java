@@ -78,7 +78,7 @@ public class Main {
                 System.exit(0);
                 break;
             default:
-                System.out.println("Opção invalida.");
+                System.out.println("Opção inválida.");
                 menu();
                 break;
         }
