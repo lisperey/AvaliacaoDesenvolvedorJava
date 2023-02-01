@@ -138,7 +138,7 @@ public class Operations {
                     case "Poupança":
 
                         while (valorDepositar < 0){
-                            System.out.println("Valor invalido...");
+                            System.out.println("Valor inválido...");
                             System.out.println("Tente outro valor!");
                             valorDepositar = Main.leitor.nextFloat();
 
@@ -158,7 +158,7 @@ public class Operations {
                     case "Corrente":
 
                         while (valorDepositar < 0){
-                            System.out.println("Valor invalido...");
+                            System.out.println("Valor inválido...");
                             System.out.println("Tente outro valor!");
                             valorDepositar = Main.leitor.nextFloat();
 
